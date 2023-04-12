@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RepairMedia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assests/css/styles.css">
+</head>
+<body class="main-bg">
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Fechar o menu." role="button">
+    <label class="close-menu-label" for="close-menu" title="Fehcar o menu"></label>
+    <aside class="menu white-bg">
+        <div class="main-container menu-content">
+        <h1 onclick="getElementById('close-menu').checked = false;">
+            <a href="#introduction">
+            RepairMedia
+            </a>
+        </h1>
+
+        <nav>
+            <ul onclick="getElementById('close-menu').checked = false;">
+                <li><a href="#objective">Nossos objetivos</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#contact">Contato</a></li>
+                <li><a href="#social-media">Redes sociais</a></li>
+
+            </ul>  
+        </nav>
+    </div>
+    </aside>
+
+    <div class="div-for-space"></div>
+
+    <section id="introduction" class="introduction main-bg section-area">
+        <div class="main-container introduction-content">
+        <div class="introduction-text">
+
+        <h2>RepairMedia</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, ut a sint provident necessitatibus voluptatem. Soluta veniam neque quasi reiciendis esse repudiandae assumenda itaque dolorum. Doloremque odio dolor corrupti delectus?</p>
+    
+        </div>
+        
+    <div class="introduction-img">
+        <img src="assests/img/Social_Media.svg" alt="Ilustração de homem segurando um botão de play dentro de um espaço, seguido de varios outros espaços com o mesmo botão">
+    </div>
+
+    </div>
+    </section>
+    
+    <section id="objective" class="white-bg section-area">
+        <div class="main-container objective-content">
+            <h2>Nossos objetivos</h2>
+            <p>- Objetivo 1: Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia unde cumque amet. Dignissimos consequuntur molestias perspiciatis ut quae placeat repellendus libero, molestiae, consequatur maiores cupiditate laudantium veritatis reprehenderit amet nisi.</p>
+            <p>- Objetivo 2: Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis assumenda tenetur doloremque deserunt, dicta fugiat similique quis itaque iure quam, tempora ullam, natus dolores officia illum vero perspiciatis suscipit a.</p>
+            <p>- Objetivo 3: Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut laboriosam suscipit quasi quibusdam possimus minima commodi atque ipsam architecto cupiditate ad facere quaerat laudantium voluptates cum inventore, a eligendi soluta.</p>
+        </div>
+    </section>
+
+    <section id="services" class="main-bg section-area">
+        <div class="main-container services-content">
+            <h2 class="services-main-heading">Nossos Serviços</h2>
+            <p class="services-description">Uma descrição rápida</p>
+            <div class="main-services">
+                <article>
+                    <h3>Teste 1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, porro laboriosam, fugiat doloribus neque odit blanditiis exercitationem nesciunt quidem dolore nostrum enim sunt ullam vel aperiam commodi, modi rem quod.</p>
+                </article>
+
+                    <article>
+                        <h3>Teste 2</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem repellendus nam mollitia quo quas dolorem cum odio inventore dolore dolor sapiente modi veritatis, soluta aliquam rerum sequi nostrum eveniet ab?</p>
+                    </article>
+
+                    <article>
+                        <h3>Teste 3</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem repellendus nam mollitia quo quas dolorem cum odio inventore dolore dolor sapiente modi veritatis, soluta aliquam rerum sequi nostrum eveniet ab?</p>
+                    </article>
+
+                    <article>
+                        <h3>Teste 4</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem repellendus nam mollitia quo quas dolorem cum odio inventore dolore dolor sapiente modi veritatis, soluta aliquam rerum sequi nostrum eveniet ab?</p>
+                    </article>
+                    </div>
+
+        </div>
+
+    </section>
+
+    <section id="contact" class="introduction white-bg section-area">
+        <div class="main-container introduction-content">
+        <div class="introduction-text">
+
+        </div>
+        <div class="introduction-img"> 
+            <img src="assests/img/Contact.svg" alt="Mulher segurando uma carta, seguida de diversos meios de comunicação, como: Telefone fixo e Smartphone. Isso para simbolizar os meios de comunicação dessa seção.">
+        </div>
+        <div class="contact-form">
+            <fieldset class="form-grid">
+                <legend>
+                    Nos contate!
+                </legend>
+
+                <div class="form-group">
+                    <label for="name"> 
+                        Nome
+                    </label>
+                    <input type="text" name="name" id="name" placeholder="Seu nome ou de sua empresa">
+                </div>
+
+                <div class="form-group">
+                    <label for="user-contact">
+                        Contato
+                    </label>
+                    <input type="text" name="user-contact" id="user-contact" placeholder="Contato">
+                </div>
+
+                <div class="form-group full-width">
+                    <label for="email">
+                        E-mail
+                    </label>
+                    <input type="email" name="email" id="email" placeholder="Seu e-mail ou de sua empresa">
+                </div>
+
+                <div class="form-group full-width">
+                    <label for="message">
+                        Mensagem
+                    </label>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Sua mensagem para nossa equipe!"></textarea>
+                </div>
+
+                <div class="form-group full-width">
+                    <button type="submit">
+                        Enviar
+                    </button>
+                </div>
+
+            </fieldset>
+        </div>
+        </div>
+
+    </section>
+
+    <footer id="social-media"class="footer main-bg">
+        <p>
+        <img src="assests/img/Instagram.svg" alt="Logo do Instagram"> Instagram: <a target="_blank" href="#">@repair.media</a>
+        </p>
+        <p>
+            <img src="assests/img/Envelope_At.svg" alt="Envelope com um arroba: @"> E-mail: contato@repairmedia.com
+        </p>
+        <p>
+            <img src="assests/img/Telephone.svg" alt="Simbolo de telefone"> Telefone: +55 21 96779-0702
+        </p>
+    </footer>
+
+</body>
+</html>
